@@ -37,20 +37,20 @@ function onPressEnter(event) {
 
 function collectUserInput() {
   let numInput = Number(userInput.value);
-  console.log(numInput + 1);
-  console.log(size(numInput + 1));
-  let result = size(numInput + 1);
+  console.log(numInput);
+  console.log(size(numInput));
+  let result = size(numInput);
   document.getElementById("msg").innerHTML = result;
   userInput.value = "";
 }
 
 function size(n) {
-  if (n < 10) {
-    return n + " is small";
-  } else if (n < 20) {
-    return n + " is med";
+  if (n < 20) {
+    return n + " is a small number";
+  } else if (n < 100) {
+    return n + " is a medium number";
   } else {
-    return n + " is large";
+    return n + " is a large number";
   }
   // n < 10 ? "small" : n > 10 ? "med" : "large";
 }
