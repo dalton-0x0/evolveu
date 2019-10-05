@@ -12,7 +12,7 @@ userInput.addEventListener("keypress", onPressEnter);
 
 function mouseChangeText() {
   document.getElementById("main").innerHTML = "Moused Over!";
-  document.getElementById("main").style.color = "yellow";
+  document.getElementById("main").style.color = "greenyellow";
 }
 
 function mouseReturnText() {
