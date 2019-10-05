@@ -42,5 +42,6 @@ button {
 
 .btn-dark {
   color: aquamarine;
-  background-color: grey;
+  background-color: black;
+  border-color: white;
 }
