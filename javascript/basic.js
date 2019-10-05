@@ -12,10 +12,12 @@ userInput.addEventListener("keypress", onPressEnter);
 
 function mouseChangeText() {
   document.getElementById("main").innerHTML = "Moused Over!";
+  document.getElementById("main").style.color = "yellow";
 }
 
 function mouseReturnText() {
-  document.getElementById("main").innerHTML = "Returned to Original Text!";
+  document.getElementById("main").innerHTML = "Simple Number Checker";
+  document.getElementById("main").style.color = "aquamarine";
 }
 
 function onButtonClicked() {
